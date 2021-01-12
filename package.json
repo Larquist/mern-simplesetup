@@ -1,0 +1,45 @@
+{
+  "name": "mern-simplesetup",
+  "version": "1.0.0",
+  "description": "Simple setup for MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "development": "nodemon",
+    "build": "webpack --config webpack.config.client.production.js && webpack --mode=production --config webpack.config.server.js",
+    "start": "NODE_ENV=production node ./dist/server.generated.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Larquist/mern-simplesetup.git"
+  },
+  "dependencies": {
+    "@hot-loader/react-dom": "16.13.0",
+    "express": "4.17.1",
+    "mongodb": "3.5.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-hot-loader": "4.12.20"
+  },
+  "devDependencies": {
+    "@babel/core": "7.9.0",
+    "@babel/preset-env": "7.9.0",
+    "@babel/preset-react": "7.9.4",
+    "babel-loader": "8.1.0",
+    "nodemon": "2.0.2",
+    "webpack": "4.42.1",
+    "webpack-cli": "3.3.11",
+    "webpack-dev-middleware": "3.7.2",
+    "webpack-hot-middleware": "2.25.0",
+    "webpack-node-externals": "1.7.2"
+  },
+  "keywords": [
+    "mern",
+    "simple"
+  ],
+  "author": "Travis Evans",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Larquist/mern-simplesetup/issues"
+  },
+  "homepage": "https://github.com/Larquist/mern-simplesetup#readme"
+}
