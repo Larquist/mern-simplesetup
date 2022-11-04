@@ -1,0 +1,64 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\travis.evans\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Sennheiser\SenncomSDK\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\PuTTY\;C:\Users\travis.evans\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\travis.evans\AppData\Local\Programs\Python\Python311\;C:\Users\travis.evans\Anaconda3;C:\Users\travis.evans\Anaconda3\Library\mingw-w64\bin;C:\Users\travis.evans\Anaconda3\Library\usr\bin;C:\Users\travis.evans\Anaconda3\Library\bin;C:\Users\travis.evans\Anaconda3\Scripts;C:\Users\travis.evans\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\travis.evans\AppData\Local\Programs\Python\Python310\;C:\Users\travis.evans\AppData\Local\Microsoft\WindowsApps;C:\Users\travis.evans\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\travis.evans\AppData\Roaming\npm;C:\Users\travis.evans\AppData\Local\Programs\Git\cmd
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  17.1.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@bebel%2fpreset-react: Not found
+      at Request.params.callback [as _callback] (C:\Users\travis.evans\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:66145:18)
+      at Request.self.callback (C:\Users\travis.evans\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:140890:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (C:\Users\travis.evans\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141862:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (C:\Users\travis.evans\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:141784:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1340:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "mern-simplesetup",
+    "version": "1.0.0",
+    "description": "Simple setup for a full-stack React application.",
+    "main": "index.js",
+    "repository": "https://github.com/Larquist/mern-simplesetup.git",
+    "author": "Travis Evans",
+    "license": "MIT",
+    "private": false,
+    "dependencies": {
+      "@hot-loader/react-dom": "16.13.0",
+      "express": "4.17.1",
+      "mongodb": "3.5.5",
+      "react": "16.13.1",
+      "react-hot-loader": "4.12.20"
+    },
+    "devDependencies": {
+      "@babel/core": "7.9.0",
+      "@babel/preset-env": "7.9.0",
+      "@bebel/preset-react": "7.9.4",
+      "babel-loader": "8.1.0",
+      "nodemon": "2.0.2",
+      "webpack": "4.42.1",
+      "webpack-cli": "3.3.11",
+      "webpack-dev-middleware": "3.7.2",
+      "webpack-hot-middleware": "2.25.0",
+      "webpack-node-externals": "1.7.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

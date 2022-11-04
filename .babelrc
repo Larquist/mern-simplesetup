@@ -1,0 +1,13 @@
+{
+    "presets": [
+        ["@babel/preset-env",{
+            "targets": {
+                "node": "current"
+            }
+        }],
+        "@bebel/preset-react"
+    ],
+    "plugins": [
+        "react-hot-loader/babel"
+    ]
+}
